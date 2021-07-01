@@ -1,0 +1,20 @@
+{
+    "name": "sxfenglei/txim",
+    "description": "腾讯IM服务端API封装",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "sxfenglei",
+        "email": "442165035@qq.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "tencent/tls-sig-api-v2": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sxfenglei\\": "src/"
+        }
+    }
+}
